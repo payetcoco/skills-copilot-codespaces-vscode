@@ -7,7 +7,7 @@ var url = require('url');
 var querystring = require('querystring');
 
 var comments = [];
-
+ 
 var server = http.createServer(function(req, res) {
   if (req.method === 'POST') {
     var body = '';
